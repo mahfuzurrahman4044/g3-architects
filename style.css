@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+
+/* --------------------- header section --------------------- */
+
+header {
+    margin: 50px 240px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.site-description {
+    margin: 100px auto 0px;
+    text-align: center;
+}
+
+.site-description-heading {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.site-description-text {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.site-description-button {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    margin-top: 30px;
+}
