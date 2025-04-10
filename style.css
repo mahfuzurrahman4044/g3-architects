@@ -4,12 +4,12 @@ body {
 
 
 
-/* --------------------- header section --------------------- */
-
+/* ----------------------------------------- header section ------------------------------------- */
 header {
     margin: 50px 240px;
 }
 
+/* --------------- nav section ------------------ */
 header nav {
     display: flex;
     justify-content: space-between;
@@ -44,6 +44,7 @@ header nav {
     text-decoration: none;
 }
 
+/* ------------ site description section -------------- */
 .site-description {
     margin: 100px auto 0px;
     text-align: center;
@@ -80,4 +81,246 @@ header nav {
     border-radius: 8px;
     background: rgb(255, 144, 14);
     margin-top: 30px;
+    padding: 10px 20px;
+}
+
+
+
+/* ------------------------------------------- main section ---------------------------------- */
+main {
+    margin: 0 240px 100px;
+}
+
+/* ------------------- banner section ------------------- */
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+/* ------------------ features section ------------------ */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.features-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    margin: 100px 0;
+}
+
+.features-text1 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.features-text-span-1 {
+    color: rgb(114, 114, 114);
+    font-weight: normal;
+}
+
+.features-text-span-2 {
+    color: rgb(255, 144, 14);
+}
+
+.features-text2 {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* ------------------ featured services section --------- */
+.featured-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.featured-services-image-container img {
+    width: 350px;
+    border-radius: 8px;
+}
+
+.featured-services-heading-container {
+    margin: 20px 0;
+    width: 350px;
+}
+
+.featured-services-heading-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.featured-services-heading-text {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.featured-services-description-container {
+    margin: 10px 0;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.06);
+    width: 350px;
+}
+
+.featured-services-description-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.featured-services-description-text {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.featured-services-button-container {
+    font-family: Work Sans;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    bottom: 250px;
+}
+
+.featured-services-button-text1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.featured-services-button-text2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* --------------- testimonials section -------------- */
+.testimonials-description-container {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.testimonials-description-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px 0px;
+}
+
+.testimonial-container {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.testimonial-container:hover {
+    transform: scale(1.5);
+    transition: 1s ease;
+}
+
+.testimonial-title {
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0%;
+}
+
+.testimonial-text {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+/* ------------ sponsors section -------------- */
+.sponsors-description-container {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+.sponsors-description-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+}
+
+.sponsors-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.sponsors-image-container img {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    width: 90px;
+    padding: 10px;
 }
