@@ -1,0 +1,492 @@
+@media screen and (max-width: 575px) {
+
+    /* --------------------------------------- header section ----------------------------------- */
+    header {
+        margin: 20px 50px 0px;
+    }
+
+    /* --------------- nav section ------------------ */
+    header nav {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .site-logo {
+        color: rgb(19, 19, 19);
+        font-family: Work Sans;
+        /* font-size: 45px;
+        font-weight: 700;
+        line-height: 53px;
+        letter-spacing: 0%;
+        text-align: center; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding-right: 40px;
+    }
+
+    .nav-links a {
+        color: rgb(66, 66, 66);
+        font-family: Work Sans;
+        /* font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-decoration: none; */
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* ------------ site description section -------------- */
+    .site-description {
+        margin: 50px auto 0px;
+        text-align: center;
+    }
+
+    .site-description-heading {
+        color: rgb(19, 19, 19);
+        font-family: Work Sans;
+        /* font-size: 64px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: 0%;
+        text-align: center; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .site-description-text {
+        color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .site-description-button {
+        color: rgb(255, 255, 255);
+        font-family: Work Sans;
+        /* font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        border-radius: 8px;
+        background: rgb(255, 144, 14);
+        margin-top: 30px;
+        padding: 10px 20px; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        border-radius: 8px;
+        background: rgb(255, 144, 14);
+        margin: 10px auto 30px;
+        padding: 8px 16px;
+    }
+
+
+
+    /* ------------------------------------------ main section --------------------------------- */
+    main {
+        margin: 0 50px 100px;
+    }
+
+    /* ------------------- banner section ------------------- */
+    .banner img {
+        width: 100%;
+        display: block;
+    }
+
+    /* ------------------ features section ------------------ */
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 70px; */
+        gap: 20px;
+    }
+
+    .features-image-container {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 20px;
+        margin: 100px 0 0;
+    }
+
+    .features-image-container img {
+        /* width: 250px; */
+        width: 200px;
+    }
+
+    .features-text1 {
+        font-family: Work Sans;
+        /* font-size: 45px;
+        font-weight: 700;
+        line-height: 53px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .features-text-span-1 {
+        color: rgb(114, 114, 114);
+        font-weight: normal;
+    }
+
+    .features-text-span-2 {
+        color: rgb(255, 144, 14);
+    }
+
+    .features-text2 {
+        color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .site-description-button2 {
+        color: rgb(255, 255, 255);
+        font-family: Work Sans;
+        /* font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        border-radius: 8px;
+        background: rgb(255, 144, 14);
+        margin-top: 30px;
+        padding: 10px 20px; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        border-radius: 8px;
+        background: rgb(255, 144, 14);
+        margin: 10px auto 60px;
+        padding: 8px 16px;
+        position: relative;
+        left: 20%;
+    }
+
+    /* ------------------ featured services section --------- */
+    .featured-services {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 50px; */
+        gap: 20px;
+    }
+
+    .featured-services-image-container img {
+        /* width: 350px; */
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .featured-services-heading-container {
+        margin: 20px 0;
+        /* width: 350px; */
+        width: 100%;
+    }
+
+    .featured-services-heading-title {
+        color: rgb(19, 19, 19);
+        font-family: Work Sans;
+        /* font-size: 45px;
+        font-weight: 700;
+        line-height: 53px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .featured-services-heading-text {
+        color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .featured-services-description-container {
+        margin: 10px 0;
+        box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.06);
+        /* width: 350px; */
+        width: 100%;
+    }
+
+    .featured-services-description-title {
+        color: rgb(19, 19, 19);
+        font-family: Work Sans;
+        /* font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .featured-services-description-text {
+        color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .featured-services-button-container {
+        font-family: Work Sans;
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+        background: rgb(255, 144, 14);
+        /* padding: 10px 20px;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        bottom: 250px; */
+        padding: 8px 16px;
+        text-align: center;
+        position: relative;
+        left: 15%;
+        bottom: 80px;
+    }
+
+    .featured-services-button-text1 {
+        /* font-size: 65px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 0%;
+        text-align: center; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .featured-services-button-text2 {
+        /* font-size: 25px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: center; */
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    /* --------------- testimonials section -------------- */
+    .testimonials-description-container {
+        color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .testimonials-description-title {
+        color: rgb(19, 19, 19);
+        font-family: Work Sans;
+        /* font-size: 45px;
+        font-weight: 700;
+        line-height: 53px;
+        letter-spacing: 0%;
+        text-align: left; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .testimonials-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0px 0px;
+    }
+
+    .testimonial-container {
+        border: 1px solid rgb(255, 144, 14);
+        border-radius: 8px;
+        text-align: center;
+        padding: 8px 16px;
+    }
+
+    .testimonial-container:hover {
+        transform: scale(1.5);
+        transition: 1s ease;
+    }
+
+    .testimonial-title {
+        color: rgb(66, 66, 66);
+        font-family: Work Sans;
+        /* font-size: 45px;
+        font-weight: 600;
+        line-height: 53px;
+        letter-spacing: 0%; */
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0%;
+    }
+
+    .testimonial-text {
+        color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        /* font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%; */
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0%;
+    }
+
+    /* ------------ sponsors section -------------- */
+    .sponsors-description-container {
+        color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        /* font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 100px 0 50px; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 80px 0 0px;
+    }
+
+    .sponsors-description-title {
+        color: rgb(19, 19, 19);
+        font-family: Work Sans;
+        /* font-size: 45px;
+        font-weight: 700;
+        line-height: 53px;
+        letter-spacing: 0%; */
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+    }
+
+    .sponsors-image-container {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 50px; */
+        gap: 10px;
+    }
+
+    .sponsors-image-container img {
+        border: 1px solid rgb(255, 144, 14);
+        border-radius: 8px;
+        width: 90px;
+        padding: 10px;
+    }
+
+
+
+    /* ---------------------------------------- footer section ---------------------------------- */
+    .footer-text {
+        color: rgb(66, 66, 66);
+        font-family: Work Sans;
+        /* font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 0 240px 50px; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 0 50px 20px;
+    }
+
+}

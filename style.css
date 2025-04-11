@@ -112,6 +112,10 @@ main {
     margin: 100px 0;
 }
 
+.features-image-container img {
+    width: 250px;
+}
+
 .features-text1 {
     font-family: Work Sans;
     font-size: 45px;
@@ -138,6 +142,20 @@ main {
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.site-description-button2 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    margin-top: 30px;
+    padding: 10px 20px;
 }
 
 /* ------------------ featured services section --------- */
