@@ -384,6 +384,7 @@
     }
 
     .testimonial-container {
+        width: 100px;
         border: 1px solid rgb(255, 144, 14);
         border-radius: 8px;
         text-align: center;
